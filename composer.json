@@ -1,0 +1,16 @@
+{
+    "name": "msnassar/cordis-php-client",
+    "description": "Cordis rest api client that allows you to interact with the cordis API",
+    "type": "library",
+    "keywords": ["cordis", "rest", "api","cordis-php", "cordis-rest"],
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.9",
+        "jms/serializer": "^3.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cordis\\": "src"
+        }
+    }
+}
