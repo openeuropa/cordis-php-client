@@ -1,0 +1,11 @@
+name: ci
+on:
+  pull_request:
+    types: [opened, synchronize]
+  push:
+    branches:
+      - master
+
+jobs:
+  automated-tests:
+    uses: openeuropa/github-ci/.github/workflows/php-library-ci.yml@main
