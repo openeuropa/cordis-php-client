@@ -8,9 +8,18 @@
         "guzzlehttp/guzzle": "^7.9",
         "jms/serializer": "^3.32"
     },
+    "require-dev": {
+        "openeuropa/code-review-library": "^1.0.0-alpha1",
+        "phpunit/phpunit": "^9.4"
+    },
     "autoload": {
         "psr-4": {
             "Cordis\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp-shim": true
         }
     }
 }
