@@ -9,6 +9,6 @@ use Cordis\Entity\ResourceEntityRelationsBase;
 /**
  * Represents relations in result.
  */
-class ResultRelations extends ResourceEntityRelationsBase {
-
+class ResultRelations extends ResourceEntityRelationsBase
+{
 }

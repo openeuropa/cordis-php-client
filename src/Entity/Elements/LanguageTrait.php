@@ -10,20 +10,20 @@ use JMS\Serializer\Annotation\Type;
 /**
  * Trait for language element.
  */
-trait LanguageTrait {
+trait LanguageTrait
+{
+    #[Type("string")]
+    #[SerializedName("language")]
+    private ?string $language = null;
 
-  #[Type("string")]
-  #[SerializedName("language")]
-  private ?string $language = NULL;
-
-  /**
-   * Get language.
-   *
-   * @return string|null
-   *   The language.
-   */
-  public function getLanguage(): ?string {
-    return $this->language;
-  }
-
+    /**
+     * Get language.
+     *
+     * @return string|null
+     *   The language.
+     */
+    public function getLanguage(): ?string
+    {
+        return $this->language;
+    }
 }

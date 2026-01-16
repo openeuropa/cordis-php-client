@@ -11,21 +11,21 @@ use JMS\Serializer\Annotation\XmlAttribute;
 /**
  * Trait for type attribute.
  */
-trait TypeTrait {
+trait TypeTrait
+{
+    #[Type("string")]
+    #[SerializedName("type")]
+    #[XmlAttribute]
+    public ?string $type = null;
 
-  #[Type("string")]
-  #[SerializedName("type")]
-  #[XmlAttribute]
-  public ?string $type = NULL;
-
-  /**
-   * Get type.
-   *
-   * @return string|null
-   *   The type.
-   */
-  public function getType(): ?string {
-    return $this->type;
-  }
-
+    /**
+     * Get type.
+     *
+     * @return string|null
+     *   The type.
+     */
+    public function getType(): ?string
+    {
+        return $this->type;
+    }
 }

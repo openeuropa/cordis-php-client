@@ -10,9 +10,8 @@ use Cordis\Entity\Attributes\TypeTrait;
 /**
  * Trait for associated entity.
  */
-trait AssociatedEntityTrait {
-
-  use TypeTrait;
-  use SourceTrait;
-
+trait AssociatedEntityTrait
+{
+    use TypeTrait;
+    use SourceTrait;
 }

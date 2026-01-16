@@ -10,20 +10,20 @@ use JMS\Serializer\Annotation\Type;
 /**
  * Base class for resource entity relations.
  */
-abstract class ResourceEntityRelationsBase extends RelationsBase {
+abstract class ResourceEntityRelationsBase extends RelationsBase
+{
+    #[Type("Cordis\Entity\Associations")]
+    #[SerializedName("associations")]
+    private ?Associations $associations = null;
 
-  #[Type("Cordis\Entity\Associations")]
-  #[SerializedName("associations")]
-  private ?Associations $associations = NULL;
-
-  /**
-   * Get associations in relations.
-   *
-   * @return \Cordis\Entity\Associations|null
-   *   The associations.
-   */
-  public function getAssociations(): ?Associations {
-    return $this->associations;
-  }
-
+    /**
+     * Get associations in relations.
+     *
+     * @return \Cordis\Entity\Associations|null
+     *   The associations.
+     */
+    public function getAssociations(): ?Associations
+    {
+        return $this->associations;
+    }
 }

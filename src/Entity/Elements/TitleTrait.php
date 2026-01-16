@@ -10,20 +10,20 @@ use JMS\Serializer\Annotation\Type;
 /**
  * Trait for title element.
  */
-trait TitleTrait {
+trait TitleTrait
+{
+    #[Type("string")]
+    #[SerializedName("title")]
+    private ?string $title = null;
 
-  #[Type("string")]
-  #[SerializedName("title")]
-  private ?string $title = NULL;
-
-  /**
-   * Get title.
-   *
-   * @return string|null
-   *   The title.
-   */
-  public function getTitle(): ?string {
-    return $this->title;
-  }
-
+    /**
+     * Get title.
+     *
+     * @return string|null
+     *   The title.
+     */
+    public function getTitle(): ?string
+    {
+        return $this->title;
+    }
 }

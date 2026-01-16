@@ -7,5 +7,6 @@ namespace Cordis\Exception;
 /**
  * Generic cordis exception.
  */
-class CordisException extends \RuntimeException {
+class CordisException extends \RuntimeException
+{
 }

@@ -15,68 +15,71 @@ use JMS\Serializer\Annotation\XmlAttribute;
 /**
  * Represents a category.
  */
-class Category {
+class Category
+{
+    use AvailableLanguagesTrait;
+    use LanguageTrait;
+    use TitleTrait;
+    use TypeTrait;
 
-  use AvailableLanguagesTrait;
-  use LanguageTrait;
-  use TitleTrait;
-  use TypeTrait;
+    #[Type("string")]
+    #[SerializedName("code")]
+    private ?string $code = null;
 
-  #[Type("string")]
-  #[SerializedName("code")]
-  private ?string $code = NULL;
+    #[Type("string")]
+    #[SerializedName("description")]
+    private ?string $description = null;
 
-  #[Type("string")]
-  #[SerializedName("description")]
-  private ?string $description = NULL;
+    #[Type("string")]
+    #[SerializedName("displayCode")]
+    private ?string $displayCode = null;
 
-  #[Type("string")]
-  #[SerializedName("displayCode")]
-  private ?string $displayCode = NULL;
+    #[Type("string")]
+    #[SerializedName("classification")]
+    #[XmlAttribute]
+    public ?string $classification = null;
 
-  #[Type("string")]
-  #[SerializedName("classification")]
-  #[XmlAttribute]
-  public ?string $classification = NULL;
+    /**
+     * Get code.
+     *
+     * @return string|null
+     *   The code.
+     */
+    public function getCode(): ?string
+    {
+        return $this->code;
+    }
 
-  /**
-   * Get code.
-   *
-   * @return string|null
-   *   The code.
-   */
-  public function getCode(): ?string {
-    return $this->code;
-  }
+    /**
+     * Get description.
+     *
+     * @return string|null
+     *   The description.
+     */
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
 
-  /**
-   * Get description.
-   *
-   * @return string|null
-   *   The description.
-   */
-  public function getDescription(): ?string {
-    return $this->description;
-  }
+    /**
+     * Get displayCode.
+     *
+     * @return string|null
+     *   The displayCode.
+     */
+    public function getDisplayCode(): ?string
+    {
+        return $this->displayCode;
+    }
 
-  /**
-   * Get displayCode.
-   *
-   * @return string|null
-   *   The displayCode.
-   */
-  public function getDisplayCode(): ?string {
-    return $this->displayCode;
-  }
-
-  /**
-   * Get classification.
-   *
-   * @return string|null
-   *   The classification.
-   */
-  public function getClassification(): ?string {
-    return $this->classification;
-  }
-
+    /**
+     * Get classification.
+     *
+     * @return string|null
+     *   The classification.
+     */
+    public function getClassification(): ?string
+    {
+        return $this->classification;
+    }
 }

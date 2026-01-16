@@ -17,95 +17,100 @@ use JMS\Serializer\Annotation\Type;
  * Currently cordis has four resource types of entities; Project, Programme,
  * Article, and Result.
  */
-abstract class ResourceEntityBase extends EntityBase implements AssociatedEntityInterface {
+abstract class ResourceEntityBase extends EntityBase implements AssociatedEntityInterface
+{
+    use AssociatedEntityTrait;
+    use AvailableLanguagesTrait;
+    use LanguageTrait;
+    use TitleTrait;
 
-  use AssociatedEntityTrait;
-  use AvailableLanguagesTrait;
-  use LanguageTrait;
-  use TitleTrait;
+    #[Type("string")]
+    #[SerializedName("teaser")]
+    private ?string $teaser = null;
 
-  #[Type("string")]
-  #[SerializedName("teaser")]
-  private ?string $teaser = NULL;
+    #[Type("DateTime<'!Y-m-d H:i:s'>")]
+    #[SerializedName("sourceUpdateDate")]
+    private ?DateTime $sourceUpdateDate = null;
 
-  #[Type("DateTime<'!Y-m-d H:i:s'>")]
-  #[SerializedName("sourceUpdateDate")]
-  private ?DateTime $sourceUpdateDate = NULL;
+    #[Type("DateTime<'!Y-m-d H:i:s'>")]
+    #[SerializedName("contentCreationDate")]
+    private ?DateTime $contentCreationDate = null;
 
-  #[Type("DateTime<'!Y-m-d H:i:s'>")]
-  #[SerializedName("contentCreationDate")]
-  private ?DateTime $contentCreationDate = NULL;
+    #[Type("DateTime<'!Y-m-d H:i:s'>")]
+    #[SerializedName("contentUpdateDate")]
+    private ?DateTime $contentUpdateDate = null;
 
-  #[Type("DateTime<'!Y-m-d H:i:s'>")]
-  #[SerializedName("contentUpdateDate")]
-  private ?DateTime $contentUpdateDate = NULL;
+    #[Type("DateTime<'!Y-m-d H:i:s'>")]
+    #[SerializedName("lastUpdateDate")]
+    private ?DateTime $lastUpdateDate = null;
 
-  #[Type("DateTime<'!Y-m-d H:i:s'>")]
-  #[SerializedName("lastUpdateDate")]
-  private ?DateTime $lastUpdateDate = NULL;
+    #[Type("DateTime<'!Y-m-d H:i:s'>")]
+    #[SerializedName("archivedDate")]
+    private ?DateTime $archivedDate = null;
 
-  #[Type("DateTime<'!Y-m-d H:i:s'>")]
-  #[SerializedName("archivedDate")]
-  private ?DateTime $archivedDate = NULL;
+    /**
+     * Get teaser.
+     *
+     * @return string|null
+     *   The teaser.
+     */
+    public function getTeaser(): ?string
+    {
+        return $this->teaser;
+    }
 
-  /**
-   * Get teaser.
-   *
-   * @return string|null
-   *   The teaser.
-   */
-  public function getTeaser(): ?string {
-    return $this->teaser;
-  }
+    /**
+     * Get source update date.
+     *
+     * @return \DateTime|null
+     *   The source update date.
+     */
+    public function getSourceUpdateDate(): ?DateTime
+    {
+        return $this->sourceUpdateDate;
+    }
 
-  /**
-   * Get source update date.
-   *
-   * @return \DateTime|null
-   *   The source update date.
-   */
-  public function getSourceUpdateDate(): ?DateTime {
-    return $this->sourceUpdateDate;
-  }
+    /**
+     * Get content creation date.
+     *
+     * @return \DateTime|null
+     *   The content creation date.
+     */
+    public function getContentCreationDate(): ?DateTime
+    {
+        return $this->contentCreationDate;
+    }
 
-  /**
-   * Get content creation date.
-   *
-   * @return \DateTime|null
-   *   The content creation date.
-   */
-  public function getContentCreationDate(): ?DateTime {
-    return $this->contentCreationDate;
-  }
+    /**
+     * Get content update date.
+     *
+     * @return \DateTime|null
+     *   The content update date.
+     */
+    public function getContentUpdateDate(): ?DateTime
+    {
+        return $this->contentUpdateDate;
+    }
 
-  /**
-   * Get content update date.
-   *
-   * @return \DateTime|null
-   *   The content update date.
-   */
-  public function getContentUpdateDate(): ?DateTime {
-    return $this->contentUpdateDate;
-  }
+    /**
+     * Get last update date.
+     *
+     * @return \DateTime|null
+     *   The last update date.
+     */
+    public function getLastUpdateDate(): ?DateTime
+    {
+        return $this->lastUpdateDate;
+    }
 
-  /**
-   * Get last update date.
-   *
-   * @return \DateTime|null
-   *   The last update date.
-   */
-  public function getLastUpdateDate(): ?DateTime {
-    return $this->lastUpdateDate;
-  }
-
-  /**
-   * Get archived date.
-   *
-   * @return \DateTime|null
-   *   The archived date.
-   */
-  public function getArchivedDate(): ?DateTime {
-    return $this->archivedDate;
-  }
-
+    /**
+     * Get archived date.
+     *
+     * @return \DateTime|null
+     *   The archived date.
+     */
+    public function getArchivedDate(): ?DateTime
+    {
+        return $this->archivedDate;
+    }
 }

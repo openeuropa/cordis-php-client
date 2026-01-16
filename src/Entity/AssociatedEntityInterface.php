@@ -13,22 +13,21 @@ namespace Cordis\Entity;
  * When an entity is associated, it also contains two attributes; type and
  * source.
  */
-interface AssociatedEntityInterface {
+interface AssociatedEntityInterface
+{
+    /**
+     * Get type.
+     *
+     * @return string|null
+     *   The type.
+     */
+    public function getType(): ?string;
 
-  /**
-   * Get type.
-   *
-   * @return string|null
-   *   The type.
-   */
-  public function getType(): ?string;
-
-  /**
-   * Get source.
-   *
-   * @return string|null
-   *   The source.
-   */
-  public function getSource(): ?string;
-
+    /**
+     * Get source.
+     *
+     * @return string|null
+     *   The source.
+     */
+    public function getSource(): ?string;
 }

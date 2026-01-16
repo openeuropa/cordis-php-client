@@ -11,21 +11,21 @@ use JMS\Serializer\Annotation\XmlAttribute;
 /**
  * Trait for source attribute.
  */
-trait SourceTrait {
+trait SourceTrait
+{
+    #[Type("string")]
+    #[SerializedName("source")]
+    #[XmlAttribute]
+    public ?string $source = null;
 
-  #[Type("string")]
-  #[SerializedName("source")]
-  #[XmlAttribute]
-  public ?string $source = NULL;
-
-  /**
-   * Get source.
-   *
-   * @return string|null
-   *   The source.
-   */
-  public function getSource(): ?string {
-    return $this->source;
-  }
-
+    /**
+     * Get source.
+     *
+     * @return string|null
+     *   The source.
+     */
+    public function getSource(): ?string
+    {
+        return $this->source;
+    }
 }

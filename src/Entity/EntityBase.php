@@ -10,23 +10,23 @@ use JMS\Serializer\Annotation\Type;
 /**
  * Base class for cordis entity.
  */
-abstract class EntityBase {
+abstract class EntityBase
+{
+    #[Type("int")]
+    #[SerializedName("rcn")]
+    private int $rcn;
 
-  #[Type("int")]
-  #[SerializedName("rcn")]
-  private int $rcn;
-
-  /**
-   * Get resource control number.
-   *
-   * Internal CORDIS identifier used for the identification of the domain
-   * entities.
-   *
-   * @return int
-   *   The resource control number.
-   */
-  public function getRcn(): int {
-    return $this->rcn;
-  }
-
+    /**
+     * Get resource control number.
+     *
+     * Internal CORDIS identifier used for the identification of the domain
+     * entities.
+     *
+     * @return int
+     *   The resource control number.
+     */
+    public function getRcn(): int
+    {
+        return $this->rcn;
+    }
 }

@@ -10,15 +10,14 @@ use GuzzleHttp\ClientInterface as GuzzleClientInterface;
 /**
  * Base class for cordis services.
  */
-abstract class ServiceBase {
-
-  /**
-   * Service base constructor.
-   */
-  public function __construct(
-    protected GuzzleClientInterface $client,
-    protected $serializer = new Serializer(),
-  ) {
-  }
-
+abstract class ServiceBase
+{
+    /**
+     * Service base constructor.
+     */
+    public function __construct(
+        protected GuzzleClientInterface $client,
+        protected $serializer = new Serializer(),
+    ) {
+    }
 }

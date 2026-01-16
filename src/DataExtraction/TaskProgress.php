@@ -7,11 +7,10 @@ namespace Cordis\DataExtraction;
 /**
  * Defines the task progress states for extraction.
  */
-enum TaskProgress: string {
-
-  case Ongoing = 'ongoing';
-  case Finished = 'finished';
-  case Failed = 'failed';
-  case Deleted = 'deleted';
-
+enum TaskProgress: string
+{
+    case Ongoing = 'ongoing';
+    case Finished = 'finished';
+    case Failed = 'failed';
+    case Deleted = 'deleted';
 }

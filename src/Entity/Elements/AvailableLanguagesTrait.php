@@ -10,20 +10,20 @@ use JMS\Serializer\Annotation\Type;
 /**
  * Trait for available languages element.
  */
-trait AvailableLanguagesTrait {
+trait AvailableLanguagesTrait
+{
+    #[Type("string")]
+    #[SerializedName("availableLanguages")]
+    private ?string $availableLanguages = null;
 
-  #[Type("string")]
-  #[SerializedName("availableLanguages")]
-  private ?string $availableLanguages = NULL;
-
-  /**
-   * Get available languages.
-   *
-   * @return array
-   *   The available languages.
-   */
-  public function getAvailableLanguages(): array {
-    return explode(',', $this->availableLanguages);
-  }
-
+    /**
+     * Get available languages.
+     *
+     * @return array
+     *   The available languages.
+     */
+    public function getAvailableLanguages(): array
+    {
+        return explode(',', $this->availableLanguages);
+    }
 }

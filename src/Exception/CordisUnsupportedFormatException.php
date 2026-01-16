@@ -9,5 +9,6 @@ use JMS\Serializer\Exception\UnsupportedFormatException;
 /**
  * Unsupported format cordis exception.
  */
-class CordisUnsupportedFormatException extends UnsupportedFormatException {
+class CordisUnsupportedFormatException extends UnsupportedFormatException
+{
 }

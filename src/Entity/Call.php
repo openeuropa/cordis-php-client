@@ -11,23 +11,23 @@ use JMS\Serializer\Annotation\Type;
 /**
  * Represents a call.
  */
-class Call extends EntityBase implements AssociatedEntityInterface {
+class Call extends EntityBase implements AssociatedEntityInterface
+{
+    use AssociatedEntityTrait;
+    use TitleTrait;
 
-  use AssociatedEntityTrait;
-  use TitleTrait;
+    #[Type("string")]
+    #[SerializedName("identifier")]
+    private ?string $identifier = null;
 
-  #[Type("string")]
-  #[SerializedName("identifier")]
-  private ?string $identifier = NULL;
-
-  /**
-   * Get call identifier.
-   *
-   * @return string|null
-   *   The call identifier.
-   */
-  public function getIdentifier(): ?string {
-    return $this->identifier;
-  }
-
+    /**
+     * Get call identifier.
+     *
+     * @return string|null
+     *   The call identifier.
+     */
+    public function getIdentifier(): ?string
+    {
+        return $this->identifier;
+    }
 }
