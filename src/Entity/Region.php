@@ -39,7 +39,7 @@ class Region extends EntityBase
      * @return string|null
      *   The name.
      */
-    public function geName(): ?string
+    public function getName(): ?string
     {
         return $this->name;
     }
