@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ICA Version:15.0.0-e4acad0-->
+<!--Model Version:126-->
+<article xmlns="http://cordis.europa.eu">
+  <language>en</language>
+  <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+  <rcn>451044</rcn>
+  <id>451044-building-a-stairway-to-ai</id>
+  <title>Building a stairway to AI</title>
+  <teaser>EU researchers aim to link low-tech SMEs to high-tech artificial intelligence resources that have the potential to transform their business.</teaser>
+  <body>
+    <section>
+      <sectionBody xmlns="">The https://www.ai4europe.eu/ (AI-on-Demand) (AIoD) platform, an initiative of the EU-funded https://cordis.europa.eu/project/id/101070000 (AI4EUROPE) project, is a sustainable, digital platform and experimentation environment. Through the creation of open research channels and mechanisms, the platform aims to foster a European artificial intelligence (AI) research ecosystem while maximising AI’s impact.
+
+However, while the project was busy building the AIoD platform, researchers quickly discovered that it was difficult for non-AI experts to use it. 
+
+“At this stage, the most fundamental need for the AI-on-Demand platform is the introduction of improved functionality to allow for easy engagement with its core targeted stakeholders, namely low-tech SMEs,” says Michela Milano, a researcher at the https://www.unibo.it/en/homepage (University of Bologna).
+
+Specifically, the platform needs simple mechanisms that can match users to AI tools, models, data sets, courses and tutorials. “What we need is a ‘stairway to AI’, a bridge that links low-tech users to the higher-level AI resources that have the potential to transform their business,” adds Milano.
+
+Creating that link is the EU-funded https://stairwai.nws.cs.unibo.it/ (StairwAI) project.</sectionBody>
+    </section>
+    <section>
+      <sectionTitle xmlns="">A multilingual chatbot and a unique matchmaking feature</sectionTitle>
+      <sectionBody xmlns="">Coordinated by the University of Bologna, the project aims to stimulate SME engagement with the AIoD platform. To do this, the project is adding a new service layer to the platform – a layer that includes, for example, a multilingual interaction function that allows the user to communicate with the platform in their own language.
+
+“Our multilingual chatbot is programmed to understand the technology readiness level of a company, discover their business needs and identify the available AI resources capable of meeting those needs,” remarks Milano.
+
+As to the latter, the project has developed a matchmaking capability that will automatically match the user with the AI tools best designed to answer their unique business needs. The feature can also recommend necessary hardware and match the user to key hardware providers.</sectionBody>
+    </section>
+    <section>
+      <sectionTitle xmlns="">Lowering the technological threshold for using AI</sectionTitle>
+      <sectionBody xmlns="">While engaging with SMEs has proved more challenging than expected, Milano is confident that the new service layer developed by the StairwAI project will help overcome any hesitancy users may have about engaging with the AIoD platform. 
+
+“With a focus on simplicity and lowering the technological threshold for using AI, our solutions will help increase European SMEs’ uptake and adoption of this powerful tool,” she says.
+
+Although the project itself is now finished, the StairwAI team continues working to promote the use of the enhanced platform. They are particularly focused on how the matchmaking feature could benefit industrial associations, university research offices and human resource providers.
+
+“Getting from identifying a user’s problem to implementing the right solution is the holy grail of AI,” concludes Milano. “By identifying the solving technique for a given problem description, the StairwAI project has built the first step in this direction.”</sectionBody>
+    </section>
+  </body>
+  <keywords>StairwAI, AI, artificial intelligence, AI-on-Demand platform, AIoD, AI4EUROPE, SME, chatbot</keywords>
+  <contentCreationDate readOnly="true">2024-05-10 10:28:52</contentCreationDate>
+  <contentUpdateDate>2024-05-10 10:28:50</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2026-01-13 13:35:09</lastUpdateDate>
+  <relations>
+    <categories>
+      <category classification="applicationDomain" type="isApplicableIn">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>ict</code>
+        <title>Digital Economy</title>
+        <displayCode readOnly="true">/Digital Economy</displayCode>
+      </category>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>brief</code>
+        <title>Result in Brief</title>
+        <description>Article: Classic and enhanced</description>
+        <displayCode readOnly="true">/Result in Brief</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>editorial</code>
+        <title>CORDIS Editorial</title>
+        <description>Written by CORDIS</description>
+        <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+      </category>
+    </categories>
+    <associations>
+      <person type="isWrittenBy" source="editorial">
+        <availableLanguages readOnly="true">es</availableLanguages>
+        <rcn>3763515</rcn>
+        <id>edit-klensni</id>
+      </person>
+      <project type="relatedProject" source="editorial">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>232755</rcn>
+        <id>101017142</id>
+        <acronym>StairwAI</acronym>
+        <teaser>The most fundamental need of the AI4EU on-demand Platform at this stage in its development is the introduction of improved functionality to allow for the easy engagements of it core targets stakeholders, namely SMEs. While additional resources and strong domain-specific...</teaser>
+        <title>Stairway to AI: Ease the Engagement of Low-Tech users to the AI-on-Demand platform through AI</title>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>project</code>
+              <title>Project</title>
+              <description>Project factsheets</description>
+              <displayCode readOnly="true">/Project</displayCode>
+            </category>
+            <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>IA</code>
+              <title>Innovation action</title>
+              <description>Innovation action</description>
+              <displayCode readOnly="true">/Innovation action</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <programme type="relatedTopic" source="corda">
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <rcn>704634</rcn>
+              <code>ICT-49-2020</code>
+              <frameworkProgramme>H2020</frameworkProgramme>
+              <title>Artificial Intelligence on demand platform</title>
+              <parent>
+                <programme>
+                  <rcn>20200</rcn>
+                  <code>H2020-Topics</code>
+                </programme>
+              </parent>
+              <relations>
+                <categories>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <code>topic</code>
+                    <title>Topic</title>
+                    <description>Programme: Part of the Commission work programme implementing legal basis</description>
+                    <displayCode readOnly="true">/Topic</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <code>corda</code>
+                    <title>CORDA</title>
+                    <description>RTD research data warehouse</description>
+                    <displayCode readOnly="true">/CORDA</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31048410</code>
+                    <title>Artificial intelligence, intelligent systems, multi agent systems</title>
+                    <displayCode readOnly="true">/Artificial intelligence, intelligent systems, multi agent systems</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31048416</code>
+                    <title>Scientific computing, simulation and modelling tools</title>
+                    <displayCode readOnly="true">/Scientific computing, simulation and modelling tools</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053774</code>
+                    <title>Software Architectures</title>
+                    <displayCode readOnly="true">/Software Architectures</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053773</code>
+                    <title>Software Design &amp; Development</title>
+                    <displayCode readOnly="true">/Software Design &amp; Development</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31049125</code>
+                    <title>Robotics</title>
+                    <displayCode readOnly="true">/Robotics</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31051329</code>
+                    <title>Demand driven innovation</title>
+                    <displayCode readOnly="true">/Demand driven innovation</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31073710</code>
+                    <title>eHealth</title>
+                    <displayCode readOnly="true">/eHealth</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31051326</code>
+                    <title>Technological innovation</title>
+                    <displayCode readOnly="true">/Technological innovation</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31051327</code>
+                    <title>Service innovation</title>
+                    <displayCode readOnly="true">/Service innovation</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31073707</code>
+                    <title>Digital services</title>
+                    <displayCode readOnly="true">/Digital services</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31051277</code>
+                    <title>Technology implementation</title>
+                    <displayCode readOnly="true">/Technology implementation</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053772</code>
+                    <title>Requirements Analysis</title>
+                    <displayCode readOnly="true">/Requirements Analysis</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053822</code>
+                    <title>Open data</title>
+                    <displayCode readOnly="true">/Open data</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31073711</code>
+                    <title>eInfrastructure</title>
+                    <displayCode readOnly="true">/eInfrastructure</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31051279</code>
+                    <title>Knowledge and Technology transfer</title>
+                    <displayCode readOnly="true">/Knowledge and Technology transfer</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31073708</code>
+                    <title>Automated translation</title>
+                    <displayCode readOnly="true">/Automated translation</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31048411</code>
+                    <title>Computer graphics, computer vision, multi media, computer games</title>
+                    <displayCode readOnly="true">/Computer graphics, computer vision, multi media, computer games</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31048415</code>
+                    <title>Machine learning, statistical data processing and applications using signal processing (e.g. speech, image, video)</title>
+                    <displayCode readOnly="true">/Machine learning, statistical data processing and applications using signal processing (e.g. speech, image, video)</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31051274</code>
+                    <title>Technology development</title>
+                    <displayCode readOnly="true">/Technology development</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053781</code>
+                    <title>Internet Services &amp; Applications</title>
+                    <displayCode readOnly="true">/Internet Services &amp; Applications</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053797</code>
+                    <title>IT Security</title>
+                    <displayCode readOnly="true">/IT Security</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31048414</code>
+                    <title>Web and information systems, database systems, information retrieval and digital libraries, data fusion</title>
+                    <displayCode readOnly="true">/Web and information systems, database systems, information retrieval and digital libraries, data fusion</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053795</code>
+                    <title>Cybersecurity</title>
+                    <displayCode readOnly="true">/Cybersecurity</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31053790</code>
+                    <title>Very large data bases</title>
+                    <displayCode readOnly="true">/Very large data bases</displayCode>
+                  </category>
+                  <category classification="topicKeyword" type="isAbout">
+                    <language>en</language>
+                    <code>31073709</code>
+                    <title>Big data</title>
+                    <displayCode readOnly="true">/Big data</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </programme>
+            <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <rcn>664147</rcn>
+              <code>H2020-EU.2.1.1.</code>
+              <frameworkProgramme>H2020</frameworkProgramme>
+              <pga>H2020-EU.2.1.1.</pga>
+              <title>INDUSTRIAL LEADERSHIP - Leadership in enabling and industrial technologies - Information and Communication Technologies (ICT)</title>
+              <shortTitle>Information and Communication Technologies</shortTitle>
+              <parent>
+                <programme>
+                  <rcn>664145</rcn>
+                  <code>H2020-EU.2.1.</code>
+                  <parent>
+                    <programme>
+                      <rcn>664143</rcn>
+                      <code>H2020-EU.2.</code>
+                      <parent>
+                        <programme>
+                          <rcn>664087</rcn>
+                          <code>H2020-EC</code>
+                          <parent>
+                            <programme>
+                              <rcn>664086</rcn>
+                              <code>H2020</code>
+                            </programme>
+                          </parent>
+                        </programme>
+                      </parent>
+                    </programme>
+                  </parent>
+                </programme>
+              </parent>
+              <relations>
+                <categories>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <code>legalbasis</code>
+                    <title>Legal Basis</title>
+                    <description>Programme: Legal basis for research funding</description>
+                    <displayCode readOnly="true">/Legal Basis</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <code>editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </programme>
+          </associations>
+        </relations>
+      </project>
+      <webItem type="relatedImage" source="editorial" represents="article">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl,any</availableLanguages>
+        <uri>/docs/article/images/2024-05/451044.jpg</uri>
+        <mimetype readOnly="true">image/jpeg</mimetype>
+        <size readOnly="true">124249</size>
+        <copyright>© nateejindakum/stock.adobe.com</copyright>
+      </webItem>
+    </associations>
+    <regions>
+      <region type="relatedRegion" source="editorial">
+        <name>Italy</name>
+        <rcn>309758504</rcn>
+        <nutsCode>IT</nutsCode>
+        <euCode>IT</euCode>
+        <isoCode>IT</isoCode>
+      </region>
+    </regions>
+  </relations>
+</article>

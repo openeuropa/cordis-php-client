@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ICA Version:15.0.1-b389e2a-->
+<!--Model Version:126-->
+<programme xmlns="http://cordis.europa.eu">
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>705727</rcn>
+  <id>HORIZON.1.1</id>
+  <cordaId>43108406</cordaId>
+  <code>HORIZON.1.1</code>
+  <frameworkProgramme>HORIZON</frameworkProgramme>
+  <pga>HORIZON.1.1</pga>
+  <title>European Research Council (ERC)</title>
+  <parent>
+    <programme>
+      <availableLanguages readOnly="true">en</availableLanguages>
+      <rcn>705726</rcn>
+      <code>HORIZON.1</code>
+      <parent>
+        <programme>
+          <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+          <rcn>705725</rcn>
+          <code>HORIZON</code>
+        </programme>
+      </parent>
+    </programme>
+  </parent>
+  <contentCreationDate readOnly="true">2021-07-19 09:48:43</contentCreationDate>
+  <contentUpdateDate>2021-07-19 09:48:43</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-10 18:14:02</lastUpdateDate>
+  <relations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>legalbasis</code>
+        <title>Legal Basis</title>
+        <displayCode readOnly="true">/Legal Basis</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>corda</code>
+        <title>CORDA</title>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</programme>

@@ -17,6 +17,11 @@
             "Cordis\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Cordis\\Tests\\": "./tests/src/"
+        }
+    },
     "config": {
         "allow-plugins": {
             "phpro/grumphp-shim": true
