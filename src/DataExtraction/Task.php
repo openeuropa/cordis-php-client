@@ -60,6 +60,10 @@ class Task
     #[SerializedName("message")]
     private ?string $message = null;
 
+    #[Type("string")]
+    #[SerializedName("error")]
+    private ?string $error = null;
+
     /**
      * Get task id.
      *
@@ -190,5 +194,16 @@ class Task
     public function getMessage(): ?string
     {
         return $this->message;
+    }
+
+    /**
+     * Get request error.
+     *
+     * @return string|null
+     *   The error, if any.
+     */
+    public function getError(): ?string
+    {
+        return $this->error;
     }
 }

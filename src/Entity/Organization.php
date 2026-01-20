@@ -43,6 +43,11 @@ class Organization extends EntityBase implements AssociatedEntityInterface
     #[XmlAttribute]
     private ?float $netEcContribution = null;
 
+    #[Type("float")]
+    #[SerializedName("totalCost")]
+    #[XmlAttribute]
+    private ?float $totalCost = null;
+
     #[Type("Cordis\Entity\Address")]
     #[SerializedName("address")]
     private ?Address $address = null;
@@ -120,6 +125,17 @@ class Organization extends EntityBase implements AssociatedEntityInterface
     public function getNetEcContribution(): ?float
     {
         return $this->netEcContribution;
+    }
+
+    /**
+     * Get total cost.
+     *
+     * @return float|null
+     *   The total cost.
+     */
+    public function getTotalCost(): ?float
+    {
+        return $this->totalCost;
     }
 
     /**
