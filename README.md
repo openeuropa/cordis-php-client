@@ -13,17 +13,29 @@ This package is currently in an experimental phase; its architecture is subject 
   - [Data Extraction](#data-extraction)
 
 ## Get Started
-First, install via the [Composer](https://getcomposer.org/) package manager:
+First, install via the [Composer](https://getcomposer.org/) package manager
+
+Add the following to ``` repositories ``` in composer.json:
 
 ```bash
-composer require msnassar/cordis-php-client
+"cordis-php-client": {
+  "type": "vcs",
+  "url": "https://github.com/openeuropa/cordis-php-client"
+}
 ```
+
+Require the package:
+
+```bash
+composer require openeuropa/cordis-php-client
+```
+
 Then, interact with Cordis API. There are multiple ways. However, the simplest is to use Cordis class as follows:
 
 ```php
 $cordis = Cordis::api(['api_key' => getenv('YOUR_API_KEY')]);
 ```
-<small>Note: Passing API_KEY is not mandatory for endpoints that don't require it.</small>
+###### Note: Passing API_KEY is not mandatory for endpoints that don't require it.
 
 If necessary, it is possible to configure and create a separate client:
 ```php
