@@ -1,4 +1,7 @@
 /.idea/
-/vendor/
-composer.lock
 .phpunit.cache/
+composer.lock
+/docker-compose.*.yml
+/grumphp.yml
+/phpunit.xml
+/vendor/
