@@ -112,6 +112,35 @@ class ExtractionService extends ServiceBase
     }
 
     /**
+     * Get all data extractions.
+     *
+     * @return \Cordis\DataExtraction\ExtractionCollection|null
+     *   The collection of existing data extractions if found, null otherwise.
+     *
+     * @throws \Cordis\Exception\CordisException;
+     */
+    public function getAll(): ?ExtractionCollection
+    {
+        try {
+            $response = $this->client->get(static::BASE_PATH . 'listExtractions');
+            $status = $response->getStatusCode();
+            return match ($status) {
+                200 => $this->serializer->deserialize(
+                    (string) $response->getBody(),
+                    ExtractionCollection::class,
+                    'json'
+                ),
+                404 => null,
+                default => throw new CordisException(
+                    "Unable to get the extractions. Server responded with status code $status."
+                )
+            };
+        } catch (GuzzleException $e) {
+            throw new CordisException("(ERROR: {$e->getMessage()}) while fetching all data extractions");
+        }
+    }
+
+    /**
      * Handle response from data extraction api.
      *
      * @param \Psr\Http\Message\ResponseInterface $response
