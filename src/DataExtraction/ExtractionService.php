@@ -102,7 +102,7 @@ class ExtractionService extends ServiceBase
     public function delete(int $taskId): ?Extraction
     {
         try {
-            $response = $this->client->get(static::BASE_PATH . 'deleteExtraction', [
+            $response = $this->client->delete(static::BASE_PATH . 'deleteExtraction', [
                 'query' => ['taskId' => $taskId],
             ]);
             return $this->handleResponse($response, "Unable to delete task $taskId");
