@@ -1,5 +1,5 @@
 {
-    "name": "msnassar/cordis-php-client",
+    "name": "openeuropa/cordis-php-client",
     "description": "Cordis rest api client that allows you to interact with the cordis API",
     "type": "library",
     "keywords": ["cordis", "rest", "api","cordis-php", "cordis-rest"],
