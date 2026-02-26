@@ -9,8 +9,9 @@ namespace Cordis\DataExtraction;
  */
 enum TaskProgress: string
 {
-    case Ongoing = 'ongoing';
-    case Finished = 'finished';
-    case Failed = 'failed';
+    case Cancelled = 'cancelled';
     case Deleted = 'deleted';
+    case Failed = 'failed';
+    case Finished = 'finished';
+    case Ongoing = 'ongoing';
 }
