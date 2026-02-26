@@ -1,6 +1,22 @@
 # Change Log
 
-## [1.0.0-alpha1](https://github.com/openeuropa/cordis-php-client/tree/1.0.0-alpha1) (2026-02-12)
+## [1.0.0-alpha3](https://github.com/openeuropa/cordis-php-client/tree/1.0.0-alpha3) (2026-02-26)
+
+[Full Changelog](https://github.com/openeuropa/cordis-php-client/compare/1.0.0-alpha2...1.0.0-alpha3)
+
+**Merged pull requests:**
+
+- Support Cancelled task progress. [\#10](https://github.com/openeuropa/cordis-php-client/pull/10) ([msnassar](https://github.com/msnassar))
+
+## [1.0.0-alpha2](https://github.com/openeuropa/cordis-php-client/tree/1.0.0-alpha2) (2026-02-25)
+
+[Full Changelog](https://github.com/openeuropa/cordis-php-client/compare/1.0.0-alpha1...1.0.0-alpha2)
+
+**Merged pull requests:**
+
+- Switch package name to openeuropa. [\#8](https://github.com/openeuropa/cordis-php-client/pull/8) ([msnassar](https://github.com/msnassar))
+
+## [1.0.0-alpha1](https://github.com/openeuropa/cordis-php-client/tree/1.0.0-alpha1) (2026-02-25)
 
 Initial alpha release. Check the [README.md](./README.md) for setup and usage instructions.
 
